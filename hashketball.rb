@@ -136,7 +136,7 @@ def num_points_scored(player)
   game_hash.collect do |host, team|
     game_hash[host][:players].keys.collect do |name|
       if name == player
-        
+
         value = game_hash[host][:players][player][:points]
         return value
       end
