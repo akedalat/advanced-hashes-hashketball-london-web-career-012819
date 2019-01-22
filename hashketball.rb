@@ -131,7 +131,7 @@ def good_practices
     end
   end
 end
-good_practices
+#good_practices
 
 def num_points_scored(player)
   game_hash.collect do |host, team|
